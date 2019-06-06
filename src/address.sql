@@ -9,3 +9,12 @@ CREATE TABLE PersonalInformation(
     address varchar(30)
 ) ENGINE = InnoDB;
 
+CREATE TABLE addressbook_mnnit(
+    id int(3) PRIMARY KEY AUTO_INCREMENT,
+    name varchar(10) NOT NULL,
+    mobile varchar(10),
+    address varchar(30)
+) ENGINE = InnoDB;
+
+
+show tables like 'addressbook_mnnit';
